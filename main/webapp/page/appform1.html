@@ -1,0 +1,69 @@
+<div id="main" data-lift="surround?with=default;at=content" data-lift-content-id="main">
+<center>
+<lift:Appform1:ld></lift:Appform1:ld>
+<lift:Appform1.add form="POST">
+				<div>
+				<dl>
+                    <dt style="width:300px">Хуулийн этгээдийн регистрийн дугаар*：</dt>
+                    <dd>
+                       <entry:v1 /> 
+                    </dd>
+                    <dt style="width:300px">Хуулийн этгээдийн нэр*：</dt>
+                    <dd>
+                        <entry:v2 /> 
+                    </dd>
+                </dl>
+                </div>
+
+
+                <div class="app-form-main">
+                    <h3 class="td_header">Хуулийн этгээдийн бүртгүүлсэн аймаг, сум, дүүрэг</h3>
+                    <div class="clearfix">
+                        <span id="aimag_hot"></span>
+                        <span id="sum_duureg"></span>
+                        <dl>
+                            <dt style="width:300px">Аймаг хот*：</dt>
+                            <dd>
+                                <entry:v3 /> 
+                            </dd>
+                            <dt style="width:300px">Сум дүүрэг*：</dt>
+                            <dd>
+                                <entry:v4 /> 
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+
+                <h3 class="td_header">Шалгах код</h3>
+                <div style="font-size: small;color: #7F7F7F;">
+                    <span style="font-size: small;color: #1E90FF;">* Шооны нүдний тоог ашиглан 3 оронтой шалгах код үүсгэж оруулна уу.</span>
+                </div>
+
+                <div class="clearfix">
+                    <span id="capture"></span>
+                    <dl>
+                        <dd>
+                            <center>
+                                <img src="/capture/MzczNjM1MzczNjMyMzQzNDMyMzMzODM2Mzc=.png" width="44" height="44" border="0" style="vertical-align: middle;" name="capture1">
+                                <img src="/capture/MzczNjMxMzgzNjMxMzMzMzMyMzgzODM0MzE=.png" width="44" height="44" border="0" style="vertical-align: middle;" name="capture2">
+                                <img src="/capture/MzczNTM2MzMzODMzMzQzMjMyMzQzMjM4MzM=.png" width="44" height="44" border="0" style="vertical-align: middle;" name="capture3">
+                                &nbsp;&nbsp;&nbsp;
+								
+                                <entry:v5 /> 
+                            </center>
+                        </dd>
+                    </dl>
+                </div>
+				
+                <div style="margin: 5px auto; text-align: center;">
+                    
+					<span><entry:cancel /></span>
+					
+                    <span><entry:submit /></span>
+                </div>
+			
+  
+</lift:Appform1.add>
+</center>
+</div>
